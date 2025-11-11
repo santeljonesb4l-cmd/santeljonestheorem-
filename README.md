@@ -100,6 +100,8 @@ Mouth: Soft silicone, 5 cm diameter, vacuum seal.
 Lungs: Internal 500 mL O₂ reservoir (electrolyzer-fed).
 Sensors: CO₂ monitor, pulse oximeter, chest compression feedback.
 Diagram (Page 21):
+Add 3-2 breath waveform data
+
 
        [Android Head]  
             👄  ← Sealing mouth (5 cm)  

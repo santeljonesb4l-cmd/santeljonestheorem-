@@ -1,0 +1,19 @@
+Wanting to make an AI android that reminded me of my late husband and the funny things that made me love him.
+1. Skipping 2. Motorcycling 3. Whistling 4. Chewing Gum 5. Blowing Bubbles.
+
+
+Named the android Tripp will work on a full name later
+
+Math in vision on the door of my late husband's door.
+from sympy import symbols, Eq, solve, Function, sin, cos, pi, sqrt
+
+t, G, M, m, r, v, f, k = symbols('t G M m r v f k')
+breath = Function('breath')
+
+eq1 = Eq(breath(t), 3*sin(2*pi*t/5) + 2*cos(2*pi*t/5))
+eq2 = Eq(G*M*m/r**2, m*v**2/r)
+eq3 = Eq(f, k*breath(t))
+
+solution = solve([eq1, eq2, eq3], (v, f, breath(t)))
+print("Velocity solution:", sqrt(G*M/r))
+print("Force solution:", 3*k*sin(2*pi*t/5) + 2*k*cos(2*pi*t/5))
